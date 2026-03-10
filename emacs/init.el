@@ -1,17 +1,21 @@
-;; emacs 配置根文件
+;; snxq's Emacs configuration entry point.
 
-;; 将 lisp 文件夹放在加载目录中
-(add-to-list 'load-path "~/.emacs.d/lisp/")
+(defconst snxq/emacs-dir
+  (file-name-directory (or load-file-name buffer-file-name)))
 
-;; Package Management
-;; ---------------------------------
+(defconst snxq/lisp-dir
+  (expand-file-name "lisp" snxq/emacs-dir))
+
+(add-to-list 'load-path snxq/lisp-dir)
+
+(setq custom-file (expand-file-name "custom.el" snxq/emacs-dir))
+(load custom-file 'noerror 'nomessage)
+
 (require 'init-packages)
-
-;; UI Management
 (require 'init-ui)
-
-;; Keybinding Management
-(require 'init-keybindings)
-
-;; Editor Management
 (require 'init-editor)
+(require 'init-completion)
+(require 'init-project)
+(require 'init-lsp)
+(require 'init-python)
+(require 'init-keybindings)
