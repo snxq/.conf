@@ -1,2 +1,10 @@
 elpa
 auto-save-list
+custom.el
+var/
+history
+recentf
+.lsp-session-v1
+projectile-bookmarks.eld
+transient/
+eln-cache/
