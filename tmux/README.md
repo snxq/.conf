@@ -3,5 +3,7 @@
 ## 安装
 
 ```bash
-cp tmux/.tmux.conf ~/
+mv ~/.tmux.conf ~/.tmux.conf.bak  # 如果已有旧配置
+ln -sfn ~/src/github/.conf/tmux/.tmux.conf ~/.tmux.conf
+tmux source-file ~/.tmux.conf
 ```
