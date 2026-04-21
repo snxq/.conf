@@ -31,4 +31,17 @@
 (savehist-mode 1)
 (recentf-mode 1)
 
+;; Sync kill ring with system clipboard
+(setq select-enable-clipboard t)
+(unless (display-graphic-p)
+  (setq interprogram-cut-function
+        (lambda (text &rest _)
+          (let ((process-connection-type nil))
+            (let ((proc (start-process "xclip" nil "xclip" "-selection" "clipboard")))
+              (process-send-string proc text)
+              (process-send-eof proc)))))
+  (setq interprogram-paste-function
+        (lambda ()
+          (shell-command-to-string "xclip -selection clipboard -o"))))
+
 (provide 'init-editor)
