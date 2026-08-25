@@ -18,4 +18,5 @@
 (require 'init-project)
 (require 'init-lsp)
 (require 'init-python)
+(require 'init-rss)
 (require 'init-keybindings)

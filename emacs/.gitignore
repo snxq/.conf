@@ -9,3 +9,5 @@ projectile-bookmarks.eld
 transient/
 eln-cache/
 .cache/
+elfeed/
+eshell/
