@@ -7,6 +7,9 @@ patch:
     # alternative_select_labels: [ ①, ②, ③, ④, ⑤, ⑥, ⑦, ⑧, ⑨, ⑩ ]  # 修改候选项标签
     # alternative_select_keys: ASDFGHJKL  # 如编码字符占用数字键，则需另设选字键
     # ascii_mode、inline、no_inline、vim_mode 等等设定，可参考 /Library/Input Methods/Squirrel.app/Contents/SharedSupport/squirrel.yaml
+  "switcher/caption": "〔方案菜单〕"
+  "switcher/hotkeys":
+    - F4
   # 中西文切换
   #
   # 【good_old_caps_lock】 CapsLock 切换到大写或切换中英。
