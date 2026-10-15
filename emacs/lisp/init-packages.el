@@ -1,3 +1,5 @@
+;;; init-packages.el --- Package management bootstrap -*- lexical-binding: t; -*-
+
 ;; Package management bootstrap.
 
 (require 'package)

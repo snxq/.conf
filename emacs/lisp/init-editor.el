@@ -1,3 +1,5 @@
+;;; init-editor.el --- Editor settings -*- lexical-binding: t; -*-
+
 ;; Editor Management
 
 ;; Keep generated state out of project directories.

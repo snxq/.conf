@@ -1,4 +1,6 @@
-;; snxq's Emacs configuration entry point.
+;;; init.el --- Emacs configuration -*- lexical-binding: t; -*-
+
+;; Emacs configuration entry point.
 
 (defconst snxq/emacs-dir
   (file-name-directory (or load-file-name buffer-file-name)))

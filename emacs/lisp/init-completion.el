@@ -1,3 +1,5 @@
+;;; init-completion.el --- Completion settings -*- lexical-binding: t; -*-
+
 ;; Completion and minibuffer UX.
 
 (use-package vertico

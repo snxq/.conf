@@ -1,3 +1,5 @@
+;;; init-rss.el --- RSS settings -*- lexical-binding: t; -*-
+
 ;; RSS reader configuration.
 
 (use-package elfeed

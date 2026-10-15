@@ -1,3 +1,5 @@
+;;; init-keybindings.el --- Keybindings -*- lexical-binding: t; -*-
+
 ;; Keybinding Management
 
 ;; reload init file

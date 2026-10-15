@@ -1,3 +1,5 @@
+;;; init-project.el --- Project settings -*- lexical-binding: t; -*-
+
 ;; Project management and git integration.
 
 (use-package projectile

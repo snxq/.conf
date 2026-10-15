@@ -1,3 +1,5 @@
+;;; init-ui.el --- UI settings -*- lexical-binding: t; -*-
+
 ;; ui management
 
 (setq inhibit-startup-message t

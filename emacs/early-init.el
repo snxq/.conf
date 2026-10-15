@@ -1,3 +1,5 @@
+;;; early-init.el --- Early startup settings -*- lexical-binding: t; -*-
+
 (setq byte-compile-warnings '(cl-functions)
       package-enable-at-startup nil
       inhibit-startup-screen t

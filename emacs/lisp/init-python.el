@@ -1,3 +1,5 @@
+;;; init-python.el --- Python settings -*- lexical-binding: t; -*-
+
 ;; Python development workflow.
 
 (use-package exec-path-from-shell

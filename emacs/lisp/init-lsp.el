@@ -1,3 +1,5 @@
+;;; init-lsp.el --- LSP settings -*- lexical-binding: t; -*-
+
 ;; LSP and diagnostics.
 
 (use-package which-key
