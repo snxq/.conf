@@ -5,4 +5,3 @@
 - [Emacs](emacs/README.md)
 - [Rime](rime/README.md)
 - [tmux](tmux/README.md)
-- [OpenCode](opencode/README.md)
